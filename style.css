@@ -1,9 +1,10 @@
-.body{
-  box-sizing: border-box;
+body {
+  /* box-sizing: border-box; */
   background-color: burlywood;
 }
-h1{
+h1 {
   margin-left: 1.2rem;
+  color: rgb(76, 105, 130);
 }
 .container {
   border: 1px solid rgb(186, 180, 180);
@@ -13,55 +14,323 @@ h1{
   padding: 2rem;
   box-sizing: border-box;
   width: 30rem;
-  position: absolute;
+  position: relative;
   background-color: rgb(203, 221, 221);
   /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.btn{
+.btn {
   margin-left: 1rem;
 }
-/* @media (max-width: 998px) {
-  html {
-    font-size: 50%;
-  }
+@media (max-width: 998px) {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 40%;
+  h1{
+    font-size: 1.5rem;
+    margin-top: -15px;
+    
+  }
+  
+  .container {
+    width: 500px;
+    margin-left: 150px;
+    height: 25rem;
+  }
+  #f-name{
+    height:30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #u-name{
+    height: 30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #roll-no{
+    height: 30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  .btn {
+    margin-left: -2px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  /* #insert{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+    
+  } */
+  /* #read{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+  }
+  #delete{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+  }
+  #update{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 8px 5px 8px;
+    
+  } */
+  #roll-no-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+  }
+  #u-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+
+  }
+  #f-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+    
   }
 }
 
 @media (max-width: 425px) {
-  html {
-    font-size: 20%;
-  }
-  #image {
-    margin-left: 53rem;
-  }
-
-  @media (max-width: 375px) {
-    html {
-      font-size: 16.5%;
-    }
-    #image {
-      margin-left: 50rem;
-      margin-top: -5rem;
-    }
-  }
-
-  @media (max-width: 320px) {
-    .container{
-      margin-top: 10rem;
-      width: 70rem;
-      height: 70rem;
-      border-radius: 10px;
-     
-  }
   h1{
-    margin-left: 5rem;
+    font-size: 1.5rem;
+    margin-top: -15px;
+    
   }
   
+  .container {
+    width: 500px;
+    margin-left: 1px;
+    height: 25rem;
+  }
+  #f-name{
+    height:30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #u-name{
+    height: 30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #roll-no{
+    height: 30px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  .btn {
+    margin-left: -2px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  /* #insert{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+    
+  } */
+  /* #read{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+  }
+  #delete{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 3px 5px 5px;
+  }
+  #update{
+    width: 50px;
+    font-size: 1rem;
+    padding: 5px 8px 5px 8px;
+    
+  } */
+  #roll-no-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+  }
+  #u-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+
+  }
+  #f-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+    
+  }
 }
-} */
+
+@media (max-width: 375px) {
+  h1{
+    font-size: 1rem;
+    margin-top: -15px;
+    
+  }
+  hr{
+    margin-top: -4px;
+  }
+  .container {
+    width: 370px;
+    margin-left: 1px;
+    height: 20rem;
+  }
+  #f-name{
+    height:20px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #u-name{
+    height: 20px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  #roll-no{
+    height: 20px;
+    font-size: .9rem;
+    margin-top: -5px;
+
+  }
+  .btn {
+    margin-left: -5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  #insert{
+    width: 50px;
+    font-size: 0.5rem;
+    /* padding: 5px 2px 5px 5px; */
+    
+  }
+  #read{
+    width: 50px;
+    font-size: 0.5rem;
+    /* padding: 5px 2px 5px 5px; */
+  }
+  #delete{
+    width: 50px;
+    font-size: 0.5rem;
+    /* padding: 5px 2px 5px 3px; */
+  }
+  #update{
+    width: 50px;
+    font-size: 0.5rem;
+    /* padding: 5px 2px 5px 5px; */
+    
+    
+  }
+  #roll-no-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+  }
+  #u-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+
+  }
+  #f-name-output{
+    font-size: .9rem;
+    color: rgb(40, 19, 19);
+
+    
+  }
+}
+
+@media (max-width: 320px) {
+  h1{
+    font-size: 0.7rem;
+    margin-top: -15px;
+    
+  }
+  hr{
+    margin-top: -7px;
+  }
+  .container {
+    width: 242px;
+    margin-left: 1px;
+    height: 15rem;
+  }
+  #f-name{
+    height: 5px;
+    font-size: .5rem;
+    margin-top: -5px;
+
+  }
+  #u-name{
+    height: 15px;
+    font-size: .5rem;
+    margin-top: -5px;
+
+  }
+  #roll-no{
+    height: 5px;
+    font-size: .5rem;
+    margin-top: -5px;
+
+  }
+  .btn {
+    margin-left: -5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  #insert{
+    width: 50px;
+    font-size: 0.5rem;
+    padding: 5px 2px 5px 5px;
+    
+  }
+  #read{
+    width: 50px;
+    font-size: 0.5rem;
+    padding: 5px 2px 5px 5px;
+  }
+  #delete{
+    width: 50px;
+    font-size: 0.5rem;
+    padding: 5px 2px 5px 3px;
+  }
+  #update{
+    width: 50px;
+    font-size: 0.5rem;
+    padding: 5px 2px 5px 5px;
+    
+    
+  }
+  #roll-no-output{
+    font-size: .5rem;
+    color: rgb(40, 19, 19);
+  }
+  #u-name-output{
+    font-size: .5rem;
+    color: rgb(40, 19, 19);
+
+
+  }
+  #f-name-output{
+    font-size: .5rem;
+    color: rgb(40, 19, 19);
+
+    
+  }
+}
